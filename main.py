@@ -1,8 +1,13 @@
 import os
 
+file1 = open("pid.txt", "w")
+file1.write(str(os.getpid()))
+file1.close() 
+
 print(os.getpid())
 
-int a = 5
-int b = 6
+a = 5
+b = 6
 
-print(a+b)
+while True:
+    print(a+b)
