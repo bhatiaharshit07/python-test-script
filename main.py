@@ -10,4 +10,4 @@ a = 5
 b = 6
 
 while True:
-    print("hey")
+    print("hello")
